@@ -108,7 +108,8 @@ header::before{
 }
 .box:hover{
     cursor: pointer;
-    zoom: 1.05;
+    transform: scale(1.1) ;
+    transition-duration: 0.7s;
 }
 /* third section  */
 .services{
